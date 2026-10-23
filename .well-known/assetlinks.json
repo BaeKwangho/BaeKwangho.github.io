@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.panchigi",
+      "sha256_cert_fingerprints": [
+        "BC:B0:3B:16:D6:6D:D0:43:71:40:F3:F7:F0:8C:1D:CA:F9:45:40:14:81:F8:A1:A1:29:81:BE:EE:8A:DA:F4:B2"
+      ]
+    }
+  }
+]

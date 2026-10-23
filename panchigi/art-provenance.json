@@ -1,0 +1,105 @@
+{
+  "clientRepository": "BaeKwangho/panchigi",
+  "clientSourceCommit": "1a411a78",
+  "method": "Deterministic Pillow composition of existing approved Image Gen exports; no new generated art or drawn substitute content. See build-preview-art.py.",
+  "inputs": [
+    {
+      "role": "logo",
+      "clientPath": "Assets/Resources/Art/UI/Home/PanchigiLogoC02V1.png",
+      "sha256": "aa4c01c562590c9830742f778bc9f6447ab4f23cf21d9fc44b3b2fc8dc2f299b",
+      "manifestEntry": {
+        "path": "Assets/Resources/Art/UI/Home/PanchigiLogoC02V1.png",
+        "runtimeSha256": "AA4C01C562590C9830742F778BC9F6447AB4F23CF21D9FC44B3B2FC8DC2F299B",
+        "source": "Design/Sources/Generated/PanchigiLogoV1.png",
+        "sourceSha256": "6503BF90813022C9EA0BC33AF179DEEF1180BFB4A35748C28F0433B9D0A653DD",
+        "sourceKind": "deterministic-derivative",
+        "origin": "OpenAI built-in Image Gen; approved Home logo without subtitle plank",
+        "prompt": "Design/Sources/Prompts/home-c02-runtime-assets-v1.md",
+        "derivationScript": "scripts/Extract-C02HomeAssets.py",
+        "derivationRecipe": "Design/Sources/Generated/Home/home-c02-extraction.json",
+        "localizedTextBakedIn": false
+      }
+    },
+    {
+      "role": "mongi",
+      "clientPath": "Assets/Resources/Art/Portraits/PlayerMongi.png",
+      "sha256": "f1f13bfb8c09b7c61852e871ea77117460e82ec579d733c5077293ee6df78457",
+      "manifestEntry": {
+        "path": "Assets/Resources/Art/Portraits/PlayerMongi.png",
+        "runtimeSha256": "F1F13BFB8C09B7C61852E871EA77117460E82EC579D733C5077293EE6DF78457",
+        "source": "Design/Sources/Generated/LegacyRuntimeMasters/Portraits/PlayerMongi.png",
+        "sourceSha256": "F1F13BFB8C09B7C61852E871EA77117460E82EC579D733C5077293EE6DF78457",
+        "sourceKind": "archived-runtime-master",
+        "origin": "OpenAI image generation; legacy session; exact model unavailable",
+        "prompt": "Design/Sources/Prompts/legacy-runtime-masters.md",
+        "evidenceCommit": "bd97796"
+      }
+    },
+    {
+      "role": "background",
+      "clientPath": "Assets/Resources/Art/UI/Home/HomeBackgroundC02V1.png",
+      "sha256": "1a1bb7ce725354d0324bdf3c1747252c19b441d037aff7a1d6bee0726ece35f6",
+      "manifestEntry": {
+        "path": "Assets/Resources/Art/UI/Home/HomeBackgroundC02V1.png",
+        "runtimeSha256": "1A1BB7CE725354D0324BDF3C1747252C19B441D037AFF7A1D6BEE0726ECE35F6",
+        "source": "Design/Sources/Generated/Home/HomeBackgroundC02V1-source.png",
+        "sourceSha256": "982DFAF50CFADF30531D114E74B0746705BD932DF2CDAAFF7E8717C19918A459",
+        "sourceKind": "deterministic-derivative",
+        "origin": "OpenAI built-in Image Gen; exact serving model not exposed",
+        "prompt": "Design/Sources/Prompts/home-c02-runtime-assets-v1.md",
+        "derivationScript": "scripts/Extract-C02HomeAssets.py",
+        "derivationRecipe": "Design/Sources/Generated/Home/home-c02-extraction.json",
+        "localizedTextBakedIn": false
+      }
+    },
+    {
+      "role": "paper",
+      "clientPath": "Assets/Resources/Art/UI/Shared/C02/StickerCardV1.png",
+      "sha256": "f7c5ce68252228a7b8e2322116451af8d866d794b2308f37dea5a9d4167fa12d",
+      "manifestEntry": {
+        "path": "Assets/Resources/Art/UI/Shared/C02/StickerCardV1.png",
+        "runtimeSha256": "F7C5CE68252228A7B8E2322116451AF8D866D794B2308F37DEA5A9D4167FA12D",
+        "source": "Design/Sources/Generated/C02Kit/C02StickerKitV2-source.png",
+        "sourceSha256": "F3F6BD323E832418FFE27FF8686ADDEA087D44B7C199D1AD615C49FFD3FD9FB0",
+        "sourceKind": "deterministic-derivative",
+        "origin": "OpenAI built-in Image Gen via Codex; exact serving model not exposed",
+        "prompt": "Design/Sources/Prompts/c02-shared-sticker-kit-v2.md",
+        "derivationScript": "scripts/Extract-C02KitAssets.py",
+        "derivationRecipe": "Design/Sources/Generated/C02Kit/c02-kit-extraction.json",
+        "localizedTextBakedIn": false
+      }
+    },
+    {
+      "role": "heads",
+      "clientPath": "Assets/Resources/Art/World/Coins/MongiHeads.png",
+      "sha256": "5033fdb0b86e55f75bb0a14572537c7dd536a731b615180363aafc3285e7bc56",
+      "manifestEntry": {
+        "path": "Assets/Resources/Art/World/Coins/MongiHeads.png",
+        "runtimeSha256": "5033FDB0B86E55F75BB0A14572537C7DD536A731B615180363AAFC3285E7BC56",
+        "source": "Design/Sources/Generated/Coins/Mongi-atlas-v2.png",
+        "sourceSha256": "86D9606713D1FE627F86CA0D790BE48E827129F57ADEDAFD2AAAA0A22B0DB712",
+        "sourceKind": "deterministic-derivative",
+        "origin": "OpenAI built-in Image Gen; exact serving model not exposed",
+        "prompt": "Design/Sources/Prompts/coin-face-contract-v2.md",
+        "derivationScript": "scripts/Generate-CoinCosmeticAssets.ps1"
+      }
+    },
+    {
+      "role": "tails",
+      "clientPath": "Assets/Resources/Art/World/Coins/MongiTails.png",
+      "sha256": "49a1c8d202e345e9e41b5917e2be29b6620aecf259dbfea19796a409d7b13a28",
+      "manifestEntry": {
+        "path": "Assets/Resources/Art/World/Coins/MongiTails.png",
+        "runtimeSha256": "49A1C8D202E345E9E41B5917E2BE29B6620AECF259DBFEA19796A409D7B13A28",
+        "source": "Design/Sources/Generated/Coins/JuaV091/MongiTails-source.png",
+        "sourceSha256": "F41CE6799F9AE211CF4CFA16A3C60CD6098CC6086D154441A53D1A5F32A5E988",
+        "sourceKind": "deterministic-derivative",
+        "origin": "OpenAI built-in Image Gen; exact serving model not exposed",
+        "prompt": "Design/Sources/Generated/Coins/JuaV091/prompts/Mongi.md",
+        "derivationScript": "scripts/derive-jua-coin-tails.py",
+        "derivationRecipe": "Design/Sources/Generated/Coins/JuaV091/provenance.json",
+        "usage": "Registered Jua number-dominant tails; heads and resource GUIDs retained"
+      }
+    }
+  ]
+}
