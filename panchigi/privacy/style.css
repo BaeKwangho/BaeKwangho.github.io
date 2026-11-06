@@ -1,0 +1,29 @@
+@font-face { font-family: "Maplestory"; src: url("../join/assets/fonts/Maplestory-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+:root { color-scheme: light; color: #4a2d19; background: #f1e5c7; font-family: "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; }
+* { box-sizing: border-box; }
+html { scroll-padding-top: 24px; }
+body { margin: 0; padding: 20px 12px; font-size: 16px; line-height: 1.9; overflow-wrap: anywhere; word-break: keep-all; }
+a { color: #086a67; text-underline-offset: 4px; }
+:focus-visible { outline: 3px solid #b3472c; outline-offset: 4px; }
+.skip { position: absolute; left: 12px; top: -100px; padding: 12px; background: #fff8e5; z-index: 1; }
+.skip:focus { top: 8px; }
+.masthead { max-width: 800px; margin: 0 auto 20px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 20px; font-size: 14px; }
+.masthead a { padding: 10px 4px; }
+main { max-width: 800px; margin: auto; padding: 28px 20px; border-radius: 23px; background: #fff8e5; box-shadow: 0 12px 38px #4a2d1920; }
+.eyebrow { font-size: 14px; color: #086a67; font-weight: 700; }
+h1, h2 { font-family: "Maplestory", "Malgun Gothic", system-ui, sans-serif; font-weight: 700; }
+h1 { margin: 12px 0 20px; font-size: clamp(28px, 7vw, 40px); line-height: 1.4; letter-spacing: -.03em; }
+h2 { font-size: 22px; line-height: 1.6; margin: 0 0 20px; }
+h3 { font-size: 18px; line-height: 1.7; margin: 28px 0 10px; }
+p { margin: 0 0 18px; }
+.date { color: #6a5842; font-size: 14px; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 18px 0; border-block: 1px solid #d5c39c; margin: 28px 0 0; }
+nav a { padding: 10px 0; }
+section { padding: 36px 0 12px; border-bottom: 1px solid #d5c39c; }
+section:last-child { border-bottom: 0; }
+#delete { border-left: 4px solid #086a67; padding-left: 16px; }
+ul, ol { padding-left: 24px; margin: 16px 0 24px; }
+li { padding-left: 2px; margin-bottom: 12px; }
+footer { max-width: 800px; margin: 24px auto 4px; color: #6a5842; font-size: 13px; }
+@media (min-width: 600px) { body { padding: 36px 24px; } main { padding: 44px 48px; border-radius: 30px; } h2 { font-size: 24px; } }
+@media print { body { background: #fff; padding: 0; } main { box-shadow: none; max-width: none; padding: 0; } nav, .skip { display: none; } h2, h3 { break-after: avoid; } a { color: inherit; } }
